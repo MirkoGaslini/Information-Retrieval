@@ -23,6 +23,7 @@ public class LuceneTester {
 	
 	 String indexDir = "src\\index";
 	 String data_xml = "src\\Posts.xml";
+	 //String data_xml = "src\\Posts_big.xml";
 	 Indexer indexer;
 	 Searcher searcher;
 	 PerformanceTester pTester;
